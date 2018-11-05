@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Example CSS link -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Music Horizon</title>
+  </head>
+  <body>
+    <header>
+        <h1>
+            <i class="fa fa-headphones" aria-hidden="true"></i>
+            Music Horizon
+        </h1>
+        <section>
+            <p>
+                Select the type of genre you are looking for
+            </p>
+        </section>
+        <section>
+            <form>
+                <div id="filter" class="select">
+                    <select>
+                        <option>Please select</option>
+                        <option value="designer">Zouk</option>
+                        <option value="developer">Solipsynthm</option>
+                        <option value="project-manager">Qawwali</option>
+                    </select>
+                </div>
+                <button>Open auditory horizon</button>
+            </form>
+        </section>
+    </header>
+    <main>
+      <div id="results-list" style="display: none";
+      <section>
+            <h2>Showing results for <span id="result-type">Zouk</span></h2>
+            <p>Zouk is a musical style originating from the Caribbean islands of Guadeloupe and Martinique and popularized by the French Antillean band Kassav' in the 1980s.</p>
+            <div id="filtered-data">
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/images/Kassav.jpg" alt="Zouk Intro" />
+                    </div>
+                    <div class="info">
+                        <h3>Kassav</h3>
+                        <p>Kassav is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.</p>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section>
+            <div id="filtered-data">
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/images/Kassav.jpg" alt="Zouk Intro" />
+                    </div>
+                    <div class="info">
+                        <h3>Kassav</h3>
+                        <p>Kassav' is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+      <div id="full-item-view">
+          <div class="image">
+              <img src="assets/images/Kassav.jpg" alt="Zouk Intro" />
+          </div>
+          <div class="info">
+              <h3>Kassav</h3>
+              <p>Kassav' is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.</p>
+          </div>
+          <button id="Back-to-start" type="button">Go Back</button>
+      </div>
+    </main>
+    <!-- Example JS link -->
+    <script src="app.js"></script>
+  </body>
+</html>
