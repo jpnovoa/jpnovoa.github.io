@@ -14,7 +14,7 @@
   <body>
     <header>
         <h1>
-            <i class="fa fa-headphones" aria-hidden="true"></i>
+            <i class="fa fa-headphones"  aria-hidden="true"></i>
             Music Horizon
         </h1>
         <section>
@@ -22,6 +22,7 @@
                 Select the type of genre you are looking for
             </p>
         </section>
+
         <section>
             <form>
                 <div id="filter" class="select">
@@ -37,10 +38,15 @@
         </section>
     </header>
     <main>
-      <div id="results-list" style="display: none";
+      <div id="results-list" style="display: none;">
+        <div id="intro">
+          <section>
+                <h2>Showing results for <span id="result-type">Zouk</span></h2>
+                <p>Zouk is a musical style originating from the Caribbean islands of Guadeloupe and Martinique and popularized by the French Antillean band Kassav' in the 1980s.</p>
+          </section>
+        </div>
+
       <section>
-            <h2>Showing results for <span id="result-type">Zouk</span></h2>
-            <p>Zouk is a musical style originating from the Caribbean islands of Guadeloupe and Martinique and popularized by the French Antillean band Kassav' in the 1980s.</p>
             <div id="filtered-data">
                 <div class="item">
                     <div class="image">
@@ -50,9 +56,13 @@
                         <h3>Kassav</h3>
                         <p>Kassav is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.</p>
                     </div>
+                    <div class="main cta">
+                      <button> See more </button>
+                    </div>
                 </div>
             </div>
       </section>
+
       <section>
             <div id="filtered-data">
                 <div class="item">
@@ -62,6 +72,9 @@
                     <div class="info">
                         <h3>Kassav</h3>
                         <p>Kassav' is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.</p>
+                    </div>
+                    <div class="main cta">
+                      <button> See more </button>
                     </div>
                 </div>
             </div>

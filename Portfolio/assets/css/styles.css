@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+.center {
+    text-align: center;
+}
+body {
+
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #00b8ff;
+    z-index: 100;
+}
+    header .logo img {
+        max-width: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header nav ul {
+        margin: 0;
+    }
+        header nav li {
+            margin: 0;
+        }
+            header nav li a {
+                color: #fff;
+            }
+
+/* #intro */
+
+#intro {
+    background-color: #00b8ff;
+    color: #fff;
+}
+    #intro .row {
+        height: 450px;
+    }
+
+/* main */
+
+main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+main div {
+    border: 1px solid black;
+}
+
+.block {
+    width: 1500px;
+    margin: auto;
+    border: 1px solid red;
+}
+    .column-1 {
+        float: left;
+        border: 1px solid #000;
+        width: 30%;
+        vertical-align: top;
+    }
+        .column-1:before {
+            content: "";
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            display: block;
+        }
+    .column-2 {
+        float: left;
+        border: 1px solid #000;
+        width: 70%;
+        vertical-align: top;
+    }

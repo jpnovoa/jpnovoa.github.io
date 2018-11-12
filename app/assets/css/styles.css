@@ -38,6 +38,12 @@ form {
     padding-top: 15px;
 }
 
+#intro {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #000;
+}
+
 select {
     font-family: 'open sans', sans-serif;
     background-color: #f1f1f1;
@@ -66,6 +72,10 @@ button {
     display: block;
     margin: 15px auto;
     width: 100%;
+}
+
+#filtered-data{
+  padding-top: 40px;
 }
 
 #result-type {

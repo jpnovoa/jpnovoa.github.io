@@ -1,0 +1,18 @@
+{
+  "Artists": [
+    {
+      "id": 1,
+      "name": "Kassav",
+      "short_description": "Kassav is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.",
+      "thumbnail": "",
+      "category": "Zouk",
+
+    }
+    {
+      "id": 2,
+    }
+    {
+      "id": 3
+    }
+  ]
+}
