@@ -5,14 +5,28 @@
       "name": "Kassav",
       "short_description": "Kassav is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.",
       "thumbnail": "",
-      "category": "Zouk",
-
-    }
+      "category": "Zouk"
+    },
     {
       "id": 2,
-    }
+      "name": "Kassav",
+      "short_description": "Kassav is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.",
+      "thumbnail": "",
+      "category": "Zouk"
+    },
     {
-      "id": 3
+      "id": 3,
+      "name": "Rahat Fateh Ali Khan",
+      "short_description": "Rahat Fateh Ali Khan, is a Pakistani musician, primarily of Qawwali, a devotional music of the Muslim Sufis. He is the nephew of Nusrat Fateh Ali Khan and son of Farrukh Fateh Ali Khan and also the grandson of Qawwali singer Fateh Ali Khan..",
+      "thumbnail": "",
+      "category": "Qawwali"
+    },
+    {
+      "id": 4,
+      "name": "Nusrat Fateh Ali Khan",
+      "short_description": "Nusrat Fateh Ali Khan was a Pakistani vocalist, primarily a singer of Qawwali, the devotional music of the Sufis. He is widely considered as one of the greatest voices ever recorded.",
+      "thumbnail": "",
+      "category": "Qawwali"
     }
   ]
 }

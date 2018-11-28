@@ -23,64 +23,35 @@
             </p>
         </section>
 
-        <section>
-            <form>
-                <div id="filter" class="select">
-                    <select>
-                        <option>Please select</option>
-                        <option value="designer">Zouk</option>
-                        <option value="developer">Solipsynthm</option>
-                        <option value="project-manager">Qawwali</option>
-                    </select>
-                </div>
-                <button>Open auditory horizon</button>
-            </form>
-        </section>
     </header>
     <main>
-      <div id="results-list" style="display: none;">
-        <div id="intro">
-          <section>
-                <h2>Showing results for <span id="result-type">Zouk</span></h2>
-                <p>Zouk is a musical style originating from the Caribbean islands of Guadeloupe and Martinique and popularized by the French Antillean band Kassav' in the 1980s.</p>
-          </section>
-        </div>
-
-      <section>
-            <div id="filtered-data">
-                <div class="item">
-                    <div class="image">
-                        <img src="assets/images/Kassav.jpg" alt="Zouk Intro" />
-                    </div>
-                    <div class="info">
-                        <h3>Kassav</h3>
-                        <p>Kassav is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.</p>
-                    </div>
-                    <div class="main cta">
-                      <button> See more </button>
-                    </div>
-                </div>
+      <div id="results-list">
+        <section>
+          <form>
+            <div id="filter" class="select">
+              <select>
+                <option>Please select</option>
+                <option value="Zouk">Zouk</option>
+                <option value="Qawwali">Qawwali</option>
+              </select>
             </div>
-      </section>
-
-      <section>
-            <div id="filtered-data">
-                <div class="item">
-                    <div class="image">
-                        <img src="assets/images/Kassav.jpg" alt="Zouk Intro" />
-                    </div>
-                    <div class="info">
-                        <h3>Kassav</h3>
-                        <p>Kassav' is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.</p>
-                    </div>
-                    <div class="main cta">
-                      <button> See more </button>
-                    </div>
-                </div>
-            </div>
+            <button type="button" id="filter-data">Open auditory horizon</button>
+          </form>
         </section>
+          <section>
+                <h2 style="display: none">Showing results for <span id="result-type">Zouk</span></h2>
+                <!--<p>Zouk is a musical style originating from the Caribbean islands of Guadeloupe and Martinique and popularized by the French Antillean band Kassav' in the 1980s.</p>-->
+          </section>
+          <section>
+            <div id="filtered-data">
+
+            </div>
+          </section>
       </div>
-      <div id="full-item-view">
+
+
+
+      <div style="display: none" id="full-item-view">
           <div class="image">
               <img src="assets/images/Kassav.jpg" alt="Zouk Intro" />
           </div>
@@ -88,10 +59,16 @@
               <h3>Kassav</h3>
               <p>Kassav' is a Caribbean band formed in Guadeloupe in 1979. Kassav' have issued over 20 albums, with a further 12 solo albums by band members.</p>
           </div>
-          <button id="Back-to-start" type="button">Go Back</button>
+          <button id="back-to-start" type="button">Go Back</button>
       </div>
     </main>
     <!-- Example JS link -->
-    <script src="app.js"></script>
+        <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+        <script src="assets/js/app.js"></script>
   </body>
 </html>
