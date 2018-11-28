@@ -16,6 +16,13 @@ body {
   height: 0;
   overflow: hidden;
 }
+.sr-only:focus{
+  position relative;
+  left: 0;
+  overflow: visible;
+  width: inherit;
+  height: inherit;
+}
 /* header */
 
 header {

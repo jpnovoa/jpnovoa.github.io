@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Music Horizon</title>
   </head>
+  <a href="#results-list" class="sr-only">Skip to genre filter</a>
   <body>
-    <header>
+    <header role="banner">
         <h1>
             <i class="fa fa-headphones"  aria-hidden="true"></i>
             Music Horizon
@@ -24,11 +25,11 @@
         </section>
 
     </header>
-    <main>
+    <main role="main">
       <div id="results-list">
         <section>
           <form>
-            <div id="filter" class="select">
+            <div id="filter" class="select" role="search">
               <label class="sr-only" for="category-filter">Select a Music Genre</label>
               <select id="category-filter" name="category-filter">
                 <option>Please select</option>
